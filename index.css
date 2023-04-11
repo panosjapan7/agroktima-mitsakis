@@ -14,7 +14,7 @@ main {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 40px 30px 40px;
+    margin: 20px 40px 20px 40px;
 }
     .logo-title-container {
         text-align: center;
@@ -34,7 +34,8 @@ main {
             letter-spacing: 0.2em;
             color: #aca5a5;
 
-            margin-top: 0px;
+            /* margin-top: 0px; */
+            margin:0px;
         }
     .menu-items {
         display: none;
@@ -133,7 +134,7 @@ main {
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
-            margin: 20px 20px 30px 20px;
+            margin: 20px 20px 20px 20px;
         }
         .menu-logo {
             font-size: 13px;
