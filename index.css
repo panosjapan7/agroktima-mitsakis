@@ -37,11 +37,17 @@ main {
             margin-top: 0px;
         }
     .menu-items {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 30px;
+        display: none;
+        }
+    @media screen and (min-width: 850px) {
+        .menu-items {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 30px;
+        }    
     }
+    
         .menu-item {
             font-size: 13px;
             text-align: center;
