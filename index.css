@@ -97,6 +97,7 @@ main {
         z-index: 2;
         padding-top: 120px;
         transition: 0.4s;
+        background-color: #ffff;
     }
     .mobile-nav.is-active{
         left: 0;
@@ -115,7 +116,7 @@ main {
     }
 
     .mobile-nav a:hover {
-        /* background-color: rgb(47, 47, 47); */
+        color: rgb(81, 81, 81);
     }
     @media screen and (min-width:850px) {
         .mobile-nav{
