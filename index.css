@@ -141,3 +141,26 @@ main {
             font-size: 11px;
         }
     }
+
+/* Hero Image */
+.hero {
+    height: 90vh;
+    width: 100vw;
+    background-image: url("./images/iStock-629692094-2048x1365.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container {
+    max-width: 80vw;
+}
+
+.logo {
+    width: 100%;
+    height:100%;
+}
