@@ -53,6 +53,9 @@ main {
             text-transform: uppercase;
             cursor: pointer;
         }
+        .menu-item:hover {
+            color: rgb(81, 81, 81);
+        }
     /* Hamburger Menu */
     .hamburger {
         display: block;
