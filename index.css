@@ -174,17 +174,18 @@ main {
     margin: 0px 40px 20px 40px;
     padding-top: 100px;
 }
-.istoria-monadas-header {
+.text-header {
     color: #1c1c1c;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 700;
     font-family: 'Open Sans';
 }
-.istoria-monadas-text {
+.text {
     color: black;
     font-size: 0.9em;
     font-family: 'Open Sans';
     letter-spacing: normal;
+    line-height: 20px;
 }
 .horizontal-line {
     border-bottom: 1px solid rgb(192, 192, 192);
