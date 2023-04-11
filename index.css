@@ -1,25 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
+
+body {
+    margin: 0px;
+}
 main {
-    background-color: red;
     font-family: "Noto Serif";
-    letter-spacing: 0.1em;
+    letter-spacing: 0.18em;
 }
 
 .top-menu {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 20px 40px 30px 40px;
 }
+    .logo-title-container {
+        text-align: center;
+        cursor: pointer;
+    }
+        .menu-logo {
+            font-size: 17px;
+            text-transform: uppercase;
+            letter-spacing: 0.25em;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .page-title {
+            font-size: 15px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 0.2em;
+            color: #aca5a5;
 
-    .menu-logo {
-        font-size: 20px;
-    }
-    .page-title {
-        font-size: 18px;
-        
-    }
+            margin-top: 0px;
+        }
     .menu-items {
         display: flex;
         flex-direction: row;
@@ -27,6 +43,8 @@ main {
         gap: 20px;
     }
         .menu-item {
-            font-size: 15px;
+            font-size: 13px;
             text-align: center;
+            text-transform: uppercase;
+            cursor: pointer;
         }
