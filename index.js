@@ -65,3 +65,88 @@ function scrollToSection(event) {
     });
   }, delay);
 }
+
+// SLIDER
+// const slider = document.querySelector(".slider");
+// const container = slider.querySelector(".slider-container");
+// const images = container.querySelectorAll("img");
+// const prevBtn = slider.querySelector(".slider-prev");
+// const nextBtn = slider.querySelector(".slider-next");
+// const thumbnails = slider.querySelectorAll(".slider-thumbnails img");
+
+// let currentImageIndex = 0;
+
+// thumbnails[currentImageIndex].classList.add("active");
+
+// function showImage(index) {
+//   container.style.transform = `translateX(-${index * 25}%)`;
+//   thumbnails[currentImageIndex].classList.remove("active");
+//   currentImageIndex = index;
+//   thumbnails[currentImageIndex].classList.add("active");
+// }
+
+// function nextImage() {
+//   const nextIndex =
+//     currentImageIndex === images.length - 1 ? 0 : currentImageIndex + 1;
+//   showImage(nextIndex);
+// }
+
+// function prevImage() {
+//   const prevIndex =
+//     currentImageIndex === 0 ? images.length - 1 : currentImageIndex - 1;
+//   showImage(prevIndex);
+// }
+
+// nextBtn.addEventListener("click", nextImage);
+// prevBtn.addEventListener("click", prevImage);
+
+// thumbnails.forEach((thumbnail, index) => {
+//   thumbnail.addEventListener("click", () => {
+//     showImage(index);
+//   });
+// });
+
+// NEW SOLUTION
+function setupSlider(slider) {
+  const container = slider.querySelector(".slider-container");
+  const images = container.querySelectorAll("img");
+  const prevBtn = slider.querySelector(".slider-prev");
+  const nextBtn = slider.querySelector(".slider-next");
+  const thumbnails = slider.querySelectorAll(".slider-thumbnails img");
+
+  let currentImageIndex = 0;
+
+  thumbnails[currentImageIndex].classList.add("active");
+
+  function showImage(index) {
+    container.style.transform = `translateX(-${index * 25}%)`;
+    thumbnails[currentImageIndex].classList.remove("active");
+    currentImageIndex = index;
+    thumbnails[currentImageIndex].classList.add("active");
+  }
+
+  function nextImage() {
+    const nextIndex =
+      currentImageIndex === images.length - 1 ? 0 : currentImageIndex + 1;
+    showImage(nextIndex);
+  }
+
+  function prevImage() {
+    const prevIndex =
+      currentImageIndex === 0 ? images.length - 1 : currentImageIndex - 1;
+    showImage(prevIndex);
+  }
+
+  nextBtn.addEventListener("click", nextImage);
+  prevBtn.addEventListener("click", prevImage);
+
+  thumbnails.forEach((thumbnail, index) => {
+    thumbnail.addEventListener("click", () => {
+      showImage(index);
+    });
+  });
+}
+
+const sliders = document.querySelectorAll(".slider");
+
+sliders.forEach(setupSlider);
