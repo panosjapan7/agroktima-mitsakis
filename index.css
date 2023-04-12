@@ -13,26 +13,25 @@ main {
 
 /* BACK TO TOP BUTTON */
 #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 50px; /* Place the button at the bottom of the page */
-    right: 25px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: white; /* Set a background color */
-    color: black; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 10px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 15px; /* Increase font size */
+    display: none; 
+    position: fixed; 
+    bottom: 80px; 
+    right: 25px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: white; 
+    color: black; 
+    cursor: pointer; 
+    padding: 10px; 
+    border-radius: 10px; 
+    font-size: 15px; 
     text-transform: uppercase;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     max-width: 100px;
   }
-  
   #myBtn:hover {
-    background-color: #f1f1f1; /* Add a dark-grey background on hover */
+    background-color: #f1f1f1; 
     box-shadow: none;
   }
 
