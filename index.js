@@ -16,6 +16,35 @@ window.onload = function () {
   });
 };
 
+// BACK TO TOP FUNCTiONALITY
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 100 ||
+    document.documentElement.scrollTop > 100
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+    setTimeout(() => {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0;
+    }, 500);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+}
+// END OF BACK TO TOP FUNCTiONALITY
+
 const links = document.querySelectorAll(".menu-item");
 
 for (const link of links) {
