@@ -51,15 +51,17 @@ main {
             gap: 30px;
         }    
     }
-        .menu-item {
-            font-size: 13px;
-            text-align: center;
-            text-transform: uppercase;
-            cursor: pointer;
-        }
-        .menu-item:hover {
-            color: rgb(81, 81, 81);
-        }
+    .menu-item {
+        font-size: 13px;
+        text-align: center;
+        text-transform: uppercase;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+    }
+    .menu-item:hover {
+        color: rgb(81, 81, 81);
+    }
     /* Hamburger Menu */
     .hamburger {
         display: block;
@@ -93,8 +95,6 @@ main {
         position: fixed;
         top: 0;
         left: 100%;
-        
-        /* width: fit-content; */
         width: 100%;
         min-height: 100vh;
         display: block;
@@ -106,7 +106,9 @@ main {
     .mobile-nav.is-active{
         left: 0;
     }
-
+    .mobile-nav.closed {
+        display: none;
+    }
     .mobile-nav a {
         display: block;
         width: 100%;

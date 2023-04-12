@@ -6,6 +6,14 @@ window.onload = function () {
     menu_btn.classList.toggle("is-active");
     mobile_menu.classList.toggle("is-active");
   });
+
+  const mobile_links = document.querySelectorAll(".mobile-nav a");
+  mobile_links.forEach((link) => {
+    link.addEventListener("click", () => {
+      menu_btn.classList.remove("is-active");
+      mobile_menu.classList.remove("is-active");
+    });
+  });
 };
 
 const links = document.querySelectorAll(".menu-item");
