@@ -184,7 +184,7 @@ main {
     color: black;
     font-size: 0.9em;
     font-family: 'Open Sans';
-    letter-spacing: 0.01em;
+    letter-spacing: 0.02em;
     line-height: 25px;
 }
 .horizontal-line {
@@ -222,6 +222,9 @@ main {
 }
 .contact-container {
     text-align: center;
+}
+.span-italic {
+    font-style: italic;
 }
 .contact-span {
     font-weight: 700;
