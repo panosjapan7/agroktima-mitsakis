@@ -233,3 +233,19 @@ main {
     color: #3e8492;
     font-weight: 700;
 }
+
+/* FOOTER */
+footer {
+    background-color: #f4f4f4;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text {
+    text-align: center;
+    color: #b1b1b1;
+    letter-spacing: 0.1em;
+}
