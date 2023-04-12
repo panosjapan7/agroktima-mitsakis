@@ -20,7 +20,6 @@ main {
 }
     .logo-title-container {
         text-align: center;
-        cursor: pointer;
     }
         .menu-logo {
             font-size: 17px;
@@ -28,6 +27,8 @@ main {
             letter-spacing: 0.25em;
             margin-top: 0px;
             margin-bottom: 0px;
+            text-decoration: none;
+            color: black;
         }
         .page-title {
             font-size: 15px;
