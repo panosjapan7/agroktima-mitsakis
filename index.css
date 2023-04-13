@@ -162,9 +162,9 @@ main {
         padding-bottom: 20px;
     }
     .logo-mobile-menu {
-        max-width: 352px;
+        max-width: 200px;
         height: auto;
-        max-height: 170px;
+        max-height: 97px;
     }
     @media screen and (min-width:850px) {
         .mobile-nav{
