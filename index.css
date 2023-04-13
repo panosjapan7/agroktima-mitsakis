@@ -164,6 +164,7 @@ main {
     .logo-mobile-menu {
         max-width: 150px;
         height: 100%;
+        max-height: 170px;
     }
     @media screen and (min-width:850px) {
         .mobile-nav{
