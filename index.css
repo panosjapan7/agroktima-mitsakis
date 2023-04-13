@@ -368,3 +368,13 @@ footer {
         height: 100%;
     }
 }
+/* SYSKEYASIA */
+.packaging-image-container {
+    text-align: center;
+    margin-top: 180px;
+}
+.packaging-image-container img {
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+}
