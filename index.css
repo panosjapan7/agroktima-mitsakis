@@ -265,6 +265,9 @@ main {
 
 /* TA MANITARIA MAS */
 @media screen and (min-width:850px) {
+    .hero-mobile-ta-manitaria-mas {
+        display: none;
+    }
     .ta-manitaria-mas-hero {
         height: 90vh;
         width: 100vw;
