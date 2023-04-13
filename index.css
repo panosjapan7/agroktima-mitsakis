@@ -40,6 +40,7 @@ main {
     box-shadow: none;
   }
 
+/* TOP MENU */
 .top-menu {
     display: flex;
     flex-direction: row;
@@ -91,7 +92,8 @@ main {
     .menu-item:hover {
         color: rgb(81, 81, 81);
     }
-    /* Hamburger Menu */
+
+/* MOBILE MENU */
     .hamburger {
         display: block;
         width: 35px;
@@ -189,18 +191,43 @@ main {
     }
 
 /* Hero Image */
-.hero {
-    height: 90vh;
-    width: 100vw;
-    background-image: url("./images/iStock-629692094-2048x1365.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@media screen and (min-width:850px) {
+    .hero {
+        height: 90vh;
+        width: 100vw;
+        background-image: url("./images/iStock-629692094-2048x1365.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
+
+/* Hero Image Mobile*/
+.hero-mobile {
+    display: none;
+}
+@media screen and (max-width:849px) {
+    .hero {
+        display: none;
+    }
+    .hero-mobile {
+        height: 90vh;
+        width: 100vw;
+        background-image: url("./images/iStock-629692094-2048x1365-mobile.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 
 .logo-container {
     max-width: 80vw;
