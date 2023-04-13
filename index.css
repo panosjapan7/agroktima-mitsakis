@@ -216,7 +216,8 @@ main {
     }
     .hero-mobile {
         height: 40vh;
-        width: 100vw;
+        /* width: 20vw; */
+        width: 100%;
         background-image: url("./images/iStock-629692094-2048x1365-mobile.jpg");
         background-attachment: fixed;
         background-position: center;
@@ -226,7 +227,6 @@ main {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 100vw;
     }
     .hero-mobile-test {
         height: 260px;
