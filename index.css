@@ -440,7 +440,11 @@ footer {
     max-width: 600px;
     height: 100%;
 }
-
+@media screen and (max-width:849px) {
+    .packaging-image-container {
+        margin-top: 20px;
+    }
+}
 /* MANITARIA SLIDER */
 .manitaria-sliders-parent-container {
     display: flex;
