@@ -514,7 +514,7 @@ footer {
     justify-content: center;
     margin-top: 10px;
     flex-wrap: wrap;
-    gap: 10px 0px;
+    gap: 10px 10px;
   }
   
   .slider-thumbnails img {
