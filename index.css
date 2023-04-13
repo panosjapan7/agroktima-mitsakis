@@ -218,7 +218,7 @@ main {
         height: 40vh;
         /* width: 20vw; */
         width: 100%;
-        background-image: url("./images/iStock-629692094-2048x1365-mobile.jpg");
+        /* background-image: url("./images/iStock-629692094-2048x1365-mobile.jpg"); */
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -229,7 +229,7 @@ main {
         justify-content: center;
     }
     .hero-mobile-test {
-        height: 260px;
+        height: auto;
         width: 100vw;
     }
     .hero-mobile-test img{
