@@ -215,24 +215,15 @@ main {
         display: none;
     }
     .hero-mobile {
-        height: 40vh;
-        /* width: 20vw; */
-        width: 100%;
-        /* background-image: url("./images/iStock-629692094-2048x1365-mobile.jpg"); */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .hero-mobile-test {
+    .hero-mobile-image-container {
         height: auto;
         width: 100vw;
     }
-    .hero-mobile-test img{
+    .hero-mobile-image-container img{
         height: 100%;
         width: 100%;
     }
@@ -253,7 +244,7 @@ main {
 /* MONADA */
 .section-wrapper {
     margin: 0px 40px 20px 40px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .text-header {
     color: #1c1c1c;
@@ -273,28 +264,42 @@ main {
 }
 
 /* TA MANITARIA MAS */
-.ta-manitaria-mas-hero {
-    height: 90vh;
-    width: 100vw;
-    background-image: url("./images/ta-manitaria-mas-hero.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 200px;
+@media screen and (min-width:850px) {
+    .ta-manitaria-mas-hero {
+        height: 90vh;
+        width: 100vw;
+        background-image: url("./images/ta-manitaria-mas-hero.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 200px;
+    }
+    .ta-manitaria-mas-hero-text {
+        color: white;
+        font-size: 7vw;
+        font-family: "Noto Serif";
+        letter-spacing: 0.1em;
+        line-height: 4vw;
+        text-align: center;
+        text-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    }
 }
-.ta-manitaria-mas-hero-text {
-    color: white;
-    font-size: 7vw;
-    font-family: "Noto Serif";
-    letter-spacing: 0.1em;
-    line-height: 4vw;
-    text-align: center;
-    text-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+@media screen and (max-width:849px) {
+    .ta-manitaria-mas-hero {
+        display: none;
+    }
+    .hero-mobile-ta-manitaria-mas { 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+    }
 }
+
 /* EPIKOINWNIA/CONTACT */
 .contact-section-wrapper {
     margin: 0px 40px 20px 40px;
