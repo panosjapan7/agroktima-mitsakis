@@ -215,19 +215,31 @@ main {
         display: none;
     }
     .hero-mobile {
-        height: 90vh;
+        height: 40vh;
         width: 100vw;
         background-image: url("./images/iStock-629692094-2048x1365-mobile.jpg");
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 100vw;
+    }
+    .hero-mobile-test {
+        height: 260px;
+        width: 100vw;
+    }
+    .hero-mobile-test img{
+        height: 100%;
+        width: 100%;
     }
 }
-
+.logo-container-mobile {
+    max-width: 80vw;
+}
 
 .logo-container {
     max-width: 80vw;
