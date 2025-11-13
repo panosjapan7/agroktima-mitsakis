@@ -116,5 +116,10 @@ const taManitsariaMassliders = document.querySelectorAll(
   ".ta-manitaria-mas-slider"
 );
 
+const oiSaltsesMasSliders = document.querySelectorAll(
+  ".oi-saltses-mas-slider"
+);
+
 sliders.forEach(setupSlider);
 taManitsariaMassliders.forEach(setupSlider);
+oiSaltsesMasSliders.forEach(setupSlider);
